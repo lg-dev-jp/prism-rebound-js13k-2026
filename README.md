@@ -2,29 +2,31 @@
 
 [日本語 README](README_ja.md)
 
-A compact pseudo-3D physics score-attack game created for **js13kGames 2026**.
+A compact pseudo-3D physics score-attack game built around one satisfying shot, seven colors, and the chain reaction that follows.
 
-Pull the cue ball, choose an angle and power, then release it into the table.  
-Bank shots, elastic collisions and chain reactions build your score while the seven-color spectrum rewards varied breaks.
+Pull back the glowing ball, choose your angle and power, then release. Bank it off the walls, break colored targets, and turn collisions into long, satisfying chains.
+
+## Play
+
+https://lg-dev-jp.github.io/prism-rebound-js13k-2026/
 
 ## Controls
 
 - **Drag / Pull**: Aim and set power
 - **Release**: Shoot
-- **RETRY**: Restart the current stage without adding its score to the run total
-- **NEXT**: Bank the current stage score into the run total and move to the next stage
+- **RETRY**: Replay the current stage without adding its score to the run total
+- **NEXT**: Add the current stage score to your run and continue
 - **NEW RUN**: After Stage 3, finish the current run and return to Stage 1
 - **R**: Restart the current stage
-- **Audio button**: Toggle sound
+- **Audio**: Toggle sound
 
 ## Scoring
 
-- **STAGE SCORE**: Score earned on the current stage
-- **RUN TOTAL**: Combined score for the current 3-stage run
-- Bank shots and longer chains increase scoring opportunities
-- Breaking all seven colors grants the Spectrum bonus
-- Each stage also keeps its own best score
-- Completing Stage 3 records the best full-run total
+Build your **STAGE SCORE** with breaks, banks, and chains.
+
+Break all seven colors to earn the **Spectrum bonus**, then carry your score through three stages and aim for the highest **RUN TOTAL** you can.
+
+Each stage keeps its own best score, and completing Stage 3 records your best full-run total.
 
 ## Stages
 
@@ -32,15 +34,18 @@ Bank shots, elastic collisions and chain reactions build your score while the se
 2. **CROSSCUT** — chain the cross
 3. **GLASSHOUSE** — break the grid
 
-## js13kGames build
+## Sound & 13KB
 
-The competition build is a ZIP containing only `index.html`.
+PRISM REBOUND was designed to feel good even between shots.
 
-Current build size is generated separately and must remain at or below **13,312 bytes**.
+The music and sound effects are generated procedurally in the browser with Web Audio, with soft looping music, light popping impact sounds, and musical collision tones that react to the action.
 
-No external art, audio samples, libraries or network resources are required.  
-Graphics, pseudo-3D projection, physics and audio are generated in-browser.
+No external images, audio files, or libraries are used. The graphics, pseudo-3D projection, physics, and audio all live inside the 13KB game.
+
+The js13kGames submission ZIP contains only `index.html` and stays within the **13,312-byte** limit.
 
 ## Development
 
-Built through AI-assisted prototyping and iteration, with game direction, playtesting and final decisions performed by the project author.
+Created for **js13kGames 2026**.
+
+Built through AI-assisted prototyping and iteration, with game direction, playtesting, and final decisions performed by the project author.
