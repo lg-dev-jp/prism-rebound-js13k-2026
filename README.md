@@ -36,11 +36,11 @@ Each stage keeps its own best score, and completing Stage 3 records your best fu
 
 ## Sound & 13KB
 
-PRISM REBOUND was designed to feel good even between shots.
+PRISM REBOUND was designed to feel good even between shots, with calm, pleasant looping music that makes the game enjoyable to leave running as well as to play.
 
-The music and sound effects are generated procedurally in the browser with Web Audio, with soft looping music, light popping impact sounds, and musical collision tones that react to the action.
+The music and sound effects are generated procedurally in the browser with Web Audio. The soundscape combines soft, easygoing music, light popping impact sounds, and musical collision tones that react to the action.
 
-No external images, audio files, or libraries are used. The graphics, pseudo-3D projection, physics, and audio all live inside the 13KB game.
+No external images, audio files, or libraries are used. The graphics, pseudo-3D projection, physics, music, and sound effects all live inside the 13KB game.
 
 The js13kGames submission ZIP contains only `index.html` and stays within the **13,312-byte** limit.
 
